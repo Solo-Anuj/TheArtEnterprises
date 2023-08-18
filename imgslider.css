@@ -13,7 +13,7 @@
 
 
 
-    background: url('./logo-image/img1.jpg') no-repeat center center;
+    background: url('logo-image/img1.jpg') no-repeat center center;
     background-size: contain;
     /* border: 2px solid red; */
 background-color: white;
