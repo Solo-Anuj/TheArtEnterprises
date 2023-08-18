@@ -1,6 +1,6 @@
 #about {
     /* border: 1px solid white; */
-    color: white;
+   /* color: white;*/
     display: flex;
     justify-content: center;
     align-items: center;
@@ -25,7 +25,7 @@
 
 #info {
     /* border: 1px solid red; */
-    color: #ffffff8a;
+   /* color: #ffffff8a;*/
     padding: 10px;
 }
 
