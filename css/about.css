@@ -1,0 +1,85 @@
+#about {
+    /* border: 1px solid white; */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#about h1 {
+    text-transform: capitalize;
+    font-size: 3.960vw;
+    /* font-size: 50px; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#intro {
+    font-size: 1.5vw;
+
+    text-transform: capitalize;
+    word-spacing: 20px;
+    color: crimson;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#info {
+    /* border: 1px solid red; */
+    color: #ffffff8a;
+    padding: 10px;
+}
+
+.para {
+    text-transform: capitalize;
+    word-spacing: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    font-size: 20px;
+}
+
+#para3 {
+    text-align: center;
+    color: cornflowerblue;
+}
+
+
+#product2 {
+    display: none;
+}
+
+
+
+@media only screen and (max-width:350px) {
+    #about h1{
+        font-size: 7vw;
+        
+    }
+    #intro{
+        font-size: 4vw;
+
+    }
+}
+
+@media (min-width:350px) and (max-width:490px) {
+    #about h1{
+        font-size: 7vw;
+        
+    }
+    #intro{
+        font-size: 4vw;
+
+    }
+
+
+}
+
+@media (min-width:490px) and (max-width:675px) {
+    #about h1{
+        font-size: 5vw;
+        
+    }
+    #intro{
+        font-size: 3vw;
+
+    }
+}

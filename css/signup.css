@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+#signUp{
+    border: 1px solid red;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+height: 90vh;
+background-color: black;
+}
+
+#signUp h1{
+    text-transform: capitalize;
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 10px;
+    color: #ffffff78;
+   
+}
+
+
+#signUp input{
+    outline:none;
+    display:block;
+    width: 60%;
+    height: 40px;
+    padding-left: 10px;
+    font-size: x-large;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+  
+}
+
+#submit{
+   background-color: rgba(220, 20, 60, 0.799);
+   text-transform: capitalize;
+   font-weight: 600;
+   cursor: pointer;
+}
+#submit:hover{
+    background-color: crimson;
+}
+#signUp a{
+    color: lightskyblue;
+    font-size:large;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#signUp a:hover{
+    color:rgba(135, 206, 250, 0.778) ;
+    text-decoration: underline;
+}

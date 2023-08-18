@@ -1,0 +1,101 @@
+#contact{
+    /* border: 1px solid white; */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#contact h1{
+    text-transform: capitalize;
+    /* font-size: 50px; */
+    font-size: 3.960vw;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#sendEmail{
+    width: 100%;
+    text-align: center;
+background: none;
+border: none;
+}
+
+#sendEmail a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color:white;
+    font-size: 15px;
+    display: inline-block;
+    border: #ffffff8a 1px solid;
+    padding: 10px;
+    background-color:crimson ;
+    
+    
+    
+}
+
+
+#sendEmail a:hover{
+    color:#ffffff8a;
+}
+
+#address{
+    color: #ffffff8a;
+    /* border: 1px solid red; */
+    padding-left: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+#address h1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: capitalize;
+}
+
+/* #socialmedia{
+    border: 1px solid red;
+    
+} */
+#socialmedia a{
+    /* border: 1px solid red; */
+    display: inline-block;
+    
+}
+
+#product2{
+display: none;
+}
+
+
+
+/* responsive */
+
+@media only screen and (max-width:350px) {
+    #contact h1{
+        font-size: 8vw;
+        
+    }
+  
+}
+
+@media (min-width:350px) and (max-width:490px) {
+    #contact h1{
+        font-size: 7vw;
+        
+    }
+   
+
+
+}
+
+@media (min-width:490px) and (max-width:675px) {
+    #contact h1{
+        font-size: 6vw;
+        
+    }
+  
+}
