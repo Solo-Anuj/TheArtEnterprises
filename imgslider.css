@@ -1,0 +1,131 @@
+.images {
+    width: 100%;
+    height: 40vw;
+    max-height: 75vh;
+    min-height: 200px;
+
+    /* border: 1px solid red; */
+}
+
+
+
+#image1 {
+
+
+
+    background: url('./logo-image/img1.jpg') no-repeat center center;
+    background-size: contain;
+    /* border: 2px solid red; */
+background-color: white;
+    display: flex;
+    /* place-items: center;   */
+    justify-content: center;
+    align-items:end;
+    border-bottom: 4px solid black;
+   
+
+
+
+
+}
+
+/* #image2{
+    top: 150px;
+  position: absolute;
+    background: url('img2.png') no-repeat center center;
+    background-size:cover;
+    display: none;
+  
+} */
+/* #image3{
+    top: 150px;
+    position: absolute;
+    background: url('img3.png') no-repeat center center;
+    background-size:cover;
+  display: none;
+} */
+/* #image4{
+    top: 150px;
+    position: absolute;
+    display: none;
+    background: url('img4.png') no-repeat center center;
+    background-size:cover;
+} */
+
+
+/* text animation */
+
+.title-word {
+    animation: color-animation 4s linear infinite;
+}
+
+.title-word-1 {
+    --color-1: #DF8453;
+    --color-2: #3D8DAE;
+    --color-3: #E4A9A8;
+}
+
+.title-word-2 {
+    --color-1: #DBAD4A;
+    --color-2: #ACCFCB;
+    --color-3: #17494D;
+}
+
+.title-word-3 {
+    --color-1: #ACCFCB;
+    --color-2: #E4A9A8;
+    --color-3: #ACCFCB;
+}
+
+.title-word-4 {
+    --color-1: #3D8DAE;
+    --color-2: #DF8453;
+    --color-3: #E4A9A8;
+}
+
+@keyframes color-animation {
+    0% {
+        color: var(--color-1)
+    }
+
+    32% {
+        color: var(--color-1)
+    }
+
+    33% {
+        color: var(--color-2)
+    }
+
+    65% {
+        color: var(--color-2)
+    }
+
+    66% {
+        color: var(--color-3)
+    }
+
+    99% {
+        color: var(--color-3)
+    }
+
+    100% {
+        color: var(--color-1)
+    }
+}
+
+
+
+#title {
+    /* font-family: "Montserrat", sans-serif; */
+    font-family: 'Barriecito', cursive;
+    /* font-weight: 800; */
+    font-size: 3.5vw;
+    text-transform: capitalize;
+    text-align: center;
+    opacity: 0.9;
+    /* border: 2px solid red; */
+    /* text-decoration: underline; */
+    /* align-items: center; */
+    position: relative;
+    bottom: 40px;
+}
