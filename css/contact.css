@@ -1,6 +1,6 @@
 #contact{
     /* border: 1px solid white; */
-    color: white;
+   /* color: white;*/
     display: flex;
     justify-content: center;
     align-items: center;
@@ -41,7 +41,7 @@ border: none;
 }
 
 #address{
-    color: #ffffff8a;
+   /* color: #ffffff8a;*/
     /* border: 1px solid red; */
     padding-left: 10px;
 
